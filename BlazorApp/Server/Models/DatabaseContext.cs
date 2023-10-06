@@ -20,7 +20,7 @@ namespace BlazorApp.Server.Models
         {
             modelBuilder.Entity<User>(entity =>
             {
-                entity.ToTable("user_details");
+                entity.ToTable("userdetails");
 
                 entity.Property(e => e.Userid).HasColumnName("Userid");
 
